@@ -1,0 +1,18 @@
+.container{
+    width: 400px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #f1a1bc;
+}
+ input, optgroup, select, textarea {
+    margin: 10px;
+    font-family: cursive;
+    font-size: larger;
+    border: #40ff6e;
+    line-height: unset;
+    background-color: rgba(0,0,0,0.03);
+}
+body{
+    background-color: aqua;
+}

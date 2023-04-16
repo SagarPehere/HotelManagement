@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.selector {
+    background-image: url("./assets/images/bg112.jpg");
+}
+.bg-dark {
+    --bs-bg-opacity: .4;
+}
+.form-control-lg{
+    font-size: 1rem;
+}
+.text-white-50 {
+    color: #f65f92!important;
+}
+.small, small {
+    font-size: 1.2em;
+}

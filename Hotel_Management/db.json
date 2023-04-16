@@ -1,0 +1,320 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Sagar1",
+      "lastName": "Pehere1",
+      "email": "test1@gmail.com",
+      "mobileNo": "8876543210",
+      "setUsername": "Sagar1@5697",
+      "setPassword": "Sagar1@747",
+      "confirmPassword": "Sagar1@747",
+      "gender": "male"
+    },
+    {
+      "id": "2",
+      "firstName": "Sagar1",
+      "lastName": "Pehere1",
+      "email": "test2@gmail.com",
+      "mobileNo": "8876543210",
+      "setUsername": "Sagar1@5697",
+      "setPassword": "Sagar1@747",
+      "confirmPassword": "Sagar1@747",
+      "gender": "male"
+    },
+    {
+      "id": "3",
+      "firstName": "Sagar1",
+      "lastName": "Pehere1",
+      "email": "test3@gmail.com",
+      "mobileNo": "8876543210",
+      "setUsername": "Sagar1@5697",
+      "setPassword": "Sagar1@747",
+      "confirmPassword": "Sagar1@747",
+      "gender": "male"
+    },
+    {
+      "id": "4",
+      "firstName": "Sagar1",
+      "lastName": "Pehere1",
+      "email": "test4@gmail.com",
+      "mobileNo": "8876543210",
+      "setUsername": "Sagar1@5697",
+      "setPassword": "Sagar1@747",
+      "confirmPassword": "Sagar1@747",
+      "gender": "male"
+    },
+    {
+      "firstName": "Sagar77",
+      "lastName": "Pehere77",
+      "email": "test5@gmail.com",
+      "mobileNo": 8879456125,
+      "setUsername": "Pehere@7744",
+      "setPassword": "SagarP@123",
+      "confirmPassword": "SagarP@123",
+      "id": "5"
+    },
+    {
+      "firstName": "Dipak",
+      "lastName": "Sonawane",
+      "email": "dioak@gmail.com",
+      "mobileNo": 8965321470,
+      "setUsername": "dipaksonawane",
+      "setPassword": "Dipak@126",
+      "confirmPassword": "Dipak@126",
+      "id": "_Wn9rtZ"
+    },
+    {
+      "firstName": "Sagar",
+      "lastName": "Lashkare",
+      "email": "test@gmail.com",
+      "mobileNo": 9858741230,
+      "setUsername": "SagarLashkare",
+      "setPassword": "Sagar@890",
+      "confirmPassword": "Sagar@890",
+      "id": "CRokGPp"
+    }
+  ],
+  "owners": [
+    {
+      "id": "1",
+      "firstName": "Sagar2",
+      "lastName": "Pehere2",
+      "email": "test2@gmail.com",
+      "mobileNo": "8976543210",
+      "setUsername": "Sagar2@5697",
+      "setPassword": "Sagar2@747",
+      "confirmPassword": "Sagar2@747",
+      "gender": "male"
+    },
+    {
+      "id": "2",
+      "firstName": "Sagar2",
+      "lastName": "Pehere2",
+      "email": "test2@gmail.com",
+      "mobileNo": "8976543210",
+      "setUsername": "SagarPehere",
+      "setPassword": "Sagar2@747",
+      "confirmPassword": "Sagar2@747",
+      "gender": "male"
+    },
+    {
+      "id": "3",
+      "firstName": "Sagar1",
+      "lastName": "Pehere1",
+      "email": "test1@gmail.com",
+      "mobileNo": "8876543210",
+      "setUsername": "Sagar1@5697",
+      "setPassword": "Sagar1@747",
+      "confirmPassword": "Sagar1@747",
+      "gender": "male"
+    },
+    {
+      "firstName": "Sagar77",
+      "lastName": "Pehere77",
+      "email": "test@gmail.com",
+      "mobileNo": 8879456125,
+      "setUsername": "Pehere@7744",
+      "setPassword": "SagarP@123",
+      "confirmPassword": "SagarP@123",
+      "id": "Yqr1nVA"
+    },
+    {
+      "firstName": "Sagar",
+      "lastName": "Pehere",
+      "email": "sagar@gmail.com",
+      "mobileNo": 9785643210,
+      "setUsername": "SagarPehere",
+      "setPassword": "Sagar@777",
+      "confirmPassword": "Sagar@777",
+      "id": "AYDUTs1"
+    }
+  ],
+  "Admin": [
+    {
+      "id": "1",
+      "firstName": "Sagar",
+      "lastName": "Pehere",
+      "email": "test@gmail.com",
+      "mobileNo": "9876543210",
+      "setUsername": "Sagar@5697",
+      "setPassword": "Sagar@747",
+      "confirmPassword": "Sagar@747",
+      "gender": "male"
+    },
+    {
+      "firstName": "monika",
+      "lastName": "mhaske",
+      "email": "monikamhaske46@gmail.com",
+      "mobileNo": 8830503111,
+      "setUsername": "MonikaMhaske",
+      "setPassword": "Monika@123",
+      "confirmPassword": "Monika@123",
+      "id": "SRmRwii"
+    },
+    {
+      "firstName": "Prashant",
+      "lastName": "Pehere",
+      "email": "prashant@gmail.com",
+      "mobileNo": 7894561305,
+      "setUsername": "Prashant@1122",
+      "setPassword": "Prashant@1122",
+      "confirmPassword": "Prashant@1122",
+      "id": "zvFbA4S"
+    },
+    {
+      "firstName": "sagar",
+      "lastName": "Lashkare",
+      "email": "sagar@gmail.com",
+      "mobileNo": 8756973210,
+      "setUsername": "Sagar12345",
+      "setPassword": "Lashkare@123",
+      "confirmPassword": "Lashkare@123",
+      "id": "dn8jNJu"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobileNo": "",
+      "setUsername": "",
+      "setPassword": "",
+      "confirmPassword": "",
+      "id": "MUxCfDi"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobileNo": "",
+      "setUsername": "",
+      "setPassword": "",
+      "confirmPassword": "",
+      "id": "TBlfD7A"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobileNo": "",
+      "setUsername": "",
+      "setPassword": "",
+      "confirmPassword": "",
+      "id": "P5vSTiD"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobileNo": "",
+      "setUsername": "",
+      "setPassword": "",
+      "confirmPassword": "",
+      "id": "oBbhjXC"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobileNo": "",
+      "setUsername": "",
+      "setPassword": "",
+      "confirmPassword": "",
+      "id": "Ao8fFEJ"
+    },
+    {
+      "firstName": "monika",
+      "lastName": "mhaske",
+      "email": "monikamhaske46@gmail.com",
+      "mobileNo": 8830503111,
+      "setUsername": "SagarPehere",
+      "setPassword": "",
+      "confirmPassword": "Prashant@123",
+      "id": "qsmSjit"
+    },
+    {
+      "firstName": "monika",
+      "lastName": "mhaske",
+      "email": "monikamhaske46@gmail.com",
+      "mobileNo": 8830503111,
+      "setUsername": "SagarPehere",
+      "setPassword": "",
+      "confirmPassword": "Sagar@747",
+      "id": "Ww37TEh"
+    },
+    {
+      "firstName": "monika",
+      "lastName": "mhaske",
+      "email": "monikamhaske46@gmail.com",
+      "mobileNo": 8830503111,
+      "setUsername": "MonikaMhaske",
+      "setPassword": "Monika@123",
+      "confirmPassword": "Monika@123",
+      "id": "BJdKS4H"
+    }
+  ],
+  "Hotel-List": [
+    {
+      "userName": "SagarPehere",
+      "hotelName": "SaiBalaji",
+      "hotelAddress": "tirupati",
+      "hotelContact": "8569471230",
+      "hotelMenu": "Kaju Masala",
+      "roomsAvailable": "Room No:-101",
+      "owenrCheck": true,
+      "userPass": "Sagar@74",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "Hotel Sagar Special",
+      "roomsAvailable": "Room No:-101",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210",
+      "owenrCheck": true,
+      "userPass": "12345678"
+    },
+    {
+      "userName": "SagarPehere",
+      "hotelName": "Saikrishna",
+      "hotelAddress": "Ranjangaon Devi",
+      "hotelContact": "8689654712",
+      "hotelMenu": "Dum Biryani",
+      "roomsAvailable": "Room No:-103",
+      "owenrCheck": true,
+      "userPass": "Sagar123",
+      "id": "5"
+    },
+    {
+      "userName": "Sarthak",
+      "hotelName": "SarthakHotel",
+      "hotelAddress": "Belapur",
+      "hotelContact": "9822754968",
+      "hotelMenu": "chicken",
+      "roomsAvailable": "8",
+      "owenrCheck": true,
+      "userPass": "Sagar",
+      "id": "11"
+    },
+    {
+      "id": "12",
+      "userName": "Sarthak",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "13",
+      "userName": "Sarthak",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    }
+  ]
+}

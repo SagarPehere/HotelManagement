@@ -1,0 +1,90 @@
+<form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+<div>
+  <mat-form-field class="example-full-width" appearance="fill" >
+    <mat-label>FirstName</mat-label>
+    <input type="text" matInput formControlName="firstName" placeholder="Name">
+    <!-- {{signUpForm.get('name')?.errors | json}} -->
+    <mat-error *ngIf="signUpForm.get('firstName')?.hasError('minlength')">
+      Firstname should be minimum 5 characters.
+    </mat-error>
+  </mat-form-field>
+</div>
+<div>
+  <mat-form-field class="example-full-width" appearance="fill" >
+    <mat-label>LastName</mat-label>
+    <input type="text" matInput formControlName="lastName" placeholder="Name">
+    <!-- {{signUpForm.get('name')?.errors | json}} -->
+    <mat-error *ngIf="signUpForm.get('lastName')?.hasError('minlength')">
+      Lastname should be minimum 5 characters.
+    </mat-error>
+  </mat-form-field>
+</div>
+<div>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Mobile Number</mat-label>
+    <input type="number" matInput formControlName="mobileNo" placeholder="8600788104">
+    <mat-error *ngIf="signUpForm.get('mobileNo')?.hasError('pattern')">
+      Please enter valid mobile number.
+    </mat-error>
+  </mat-form-field>
+</div>
+<div>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Email</mat-label>
+    <input type="email" matInput formControlName="email" placeholder="Email">
+    <mat-error *ngIf="signUpForm.get('email')?.hasError('minlength')">
+      Please enter valid email address.
+    </mat-error>
+  </mat-form-field>
+</div>
+<div>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input type="text" matInput formControlName="setUsername" placeholder="Set your USername">
+    <mat-error *ngIf="signUpForm.get('setUsername')?.hasError('minlength')">
+      Username should be minimum 10 characters.
+    </mat-error>
+  </mat-form-field>
+</div>
+<div>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Password</mat-label>
+    <input type="text" matInput formControlName="setPassword" placeholder="Set Your Password">
+    <mat-error *ngIf="signUpForm.get('setPassword')?.hasError('pattern')">
+      Set your password according to format.
+    </mat-error>
+  </mat-form-field>
+  <!-- <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Enter your password</mat-label>
+    <input matInput [type]="hide ? 'password' : 'text'">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error *ngIf="signUpForm.get('setPassword')?.hasError('pattern')">
+      Set your password according to format.
+    </mat-error>
+  </mat-form-field> -->
+</div>
+<div>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Confirm Password</mat-label>
+    <input type="text" matInput formControlName="confirmPassword" placeholder="Set Your Password">
+    <mat-error *ngIf="signUpForm.get('confirmPassword')?.hasError('validators')">
+      Password should be matched.
+    </mat-error>
+  </mat-form-field>
+</div>
+<section class="example-section">
+  <label class="example-margin">Gender:</label>
+  <mat-radio-group>
+    <mat-radio-button class="example-margin" value="male">Male</mat-radio-button>
+    <mat-radio-button class="example-margin" value="female">Female</mat-radio-button>
+    <mat-radio-button class="example-margin" value="other">Other</mat-radio-button>
+  </mat-radio-group>
+</section>
+<div>
+  <button [disabled]="signUpForm.invalid" mat-raised-button color="primary">Submit</button>
+</div>
+
+
+</form>

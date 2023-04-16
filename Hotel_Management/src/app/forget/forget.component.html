@@ -1,0 +1,37 @@
+<div class="bg">
+    <div class="container card text-center" style="width: 400px;">
+        <div class="card-header h5 text-white bg-secondary">Reset Your Password</div>
+        <div class="card-body px-5">
+            <p class="card-text py-2">
+                Enter your Email address and we'll send you an OTP to reset your Password.
+            </p>
+            <div class="form-outline">
+                <input type="email" #email name="email" required class="form-control my-3 card" />
+                <label class="form-label">Email input</label>
+                <button type="submit" *ngIf="!otpUnmatch" class="btn btn-primary w-100"
+                    (click)="getRandomNumber(email)">Send OTP</button>
+                <button type="submit" *ngIf="otpUnmatch" class="btn btn-primary w-100"
+                    (click)="getRandomNumber(email)">Resend OTP</button>
+            </div>
+            <div class="inputs d-flex flex-row justify-content-center mt-3">
+                <input class="m-2 text-center form-control rounded" type="text" #otp name="otp" maxlength="6" />
+            </div>
+            <div><button class="btn btn-danger px-4 validate" (click)="validation(otp)">Validate</button></div>
+            <div *ngIf="otpUnmatch" class="alert alert-warning">OTP not match. Please Resend OTP</div>
+           <form #passForm="ngForm" (ngSubmit)="onSubmit()">
+            <div class="form-outline" *ngIf="otpMatch">
+                <input type="password" ngModel name="password"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,30}" required
+                    class="form-control my-3 card" />
+                <label class="form-label">New Password</label>
+                <input type="password" ngModel name="confirm"
+                    pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,30}" required
+                    class="form-control my-3 card" />
+                <label class="form-label">Confirm Password</label>
+                <button [disabled]="passForm.invalid" type="submit" class="btn btn-primary w-100">Submit</button>
+            </div>
+           </form>
+
+        </div>
+    </div>
+</div>

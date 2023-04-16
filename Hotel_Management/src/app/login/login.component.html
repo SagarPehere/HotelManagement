@@ -1,0 +1,109 @@
+<!-- <form>
+    <div class="form-group">
+        <input  type="email" class="form-control" name="name"
+            placeholder="Please enter your username">
+            
+    </div>
+    <div class="form-group">
+
+        <input  type="password" class="form-control" name="name"
+            placeholder="Please enter your password">
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" (click)="Login()">LogIn</button>
+    </div>
+</form> -->
+<!-- <div> "Hotel-List": [
+    {
+      "id": "2",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "3",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "4",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "5",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "6",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "7",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    },
+    {
+      "id": "8",
+      "userName": "SagarPehere",
+      "hotelName": "Sailila",
+      "hotelMenu": "luxarious",
+      "roomsAvailable": "10",
+      "hotelAddress": "ahmednagar",
+      "hotelContact": "8965463210"
+    }
+  ]</div> -->
+
+
+
+<form class="selector">
+    <h1>Admin Log In </h1>
+    <div class="form-group">
+        <label class="">Username</label>
+        <input #emailControl="ngModel"  type="text" class="form-control transparent-input" name="name"
+            [(ngModel)]="email" placeholder="Please enter your username">
+        
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input  type="password" class="form-control transparent-input" name="name" [(ngModel)]="password"
+            placeholder="Please enter your password">
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-link">Forgot Password?</button>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary" (click)="Login()">LogIn</button>
+        <span class="right">Not have Account? <button routerLink="/signup" type="button" class="btn btn-info">Sign Up</button>
+        </span>
+    </div> 
+    <div>
+
+    </div>
+
+</form>

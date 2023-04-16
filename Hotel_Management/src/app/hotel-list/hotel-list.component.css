@@ -1,0 +1,9 @@
+.table-bordered{
+    border: 2px solid rgb(144, 16, 208);
+}
+.bg{
+    background-image: url("../../assets/images/bg11.jpg");
+    height: 645px;
+    width: 1335px;
+    
+}

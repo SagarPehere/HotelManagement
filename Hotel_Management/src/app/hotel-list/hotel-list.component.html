@@ -1,0 +1,33 @@
+<div class="bg">
+    <button class="btn btn-danger" (click)="back()">Back</button><span><input type="text" #name>
+ <button (click)="submit(name)">Submit</button> {{username}}</span>
+    <h1 class="fw-bolder">Hotel-list</h1>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark ">
+            <tr>
+                <th>ID</th>
+                <th>Owner Name</th>
+                <th>Hotel Name</th>
+                <th>Menu</th>
+                <th>Available Rooms</th>
+                <th>Hotel Address</th>
+                <th>Contact</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of apiData">
+                <td>{{data.id}}</td>
+                <td>{{data.userName}}</td>
+                <td>{{data.hotelName}}</td>
+                <td>{{data.hotelMenu}}</td>
+                <td>{{data.roomsAvailable}}</td>
+                <td>{{data.hotelAddress}}</td>
+                <td>{{data.hotelContact}}</td>
+                <td><mat-icon (click)="deleteData(data.id)">delete</mat-icon></td>
+                <!-- <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="delete"></mat-icon>
+           </td> -->
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,73 @@
+
+<div class="main">
+    <button class="btn btn-danger" (click)="back()">Back</button><span></span>
+
+    <h1 style="text-align:center ;"><b>Register Here</b></h1>
+    <form [formGroup]="regitrationForm">
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Owner Name </mat-label><br>
+            <input matInput type="text" formControlName="userName" placeholder="Enter owner name">
+        </mat-form-field><br>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Hotel Name</mat-label><br>
+            <input matInput type="text" formControlName="hotelName" placeholder="Enter hotel name">
+        </mat-form-field><br>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Hotel Address</mat-label><br>
+            <input matInput type="text" formControlName="hotelAddress" placeholder="Enter hotel address">
+        </mat-form-field><br>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Mobile Number</mat-label><br>
+            <input matInput type="text" formControlName="hotelContact" placeholder="Enter hotel mobile number">
+        </mat-form-field><br>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Mainu List</mat-label>
+            <mat-select formControlName="hotelMenu">
+              <mat-option *ngFor="let food of foods" [value]="food.menuList">
+                {{food.menuList}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+        <!-- <mat-form-field class="example-full-width">
+            <mat-label>Menu List</mat-label><br>
+            <input matInput type="text" formControlName="hotelMenu" placeholder="Special Menu">
+            
+        </mat-form-field> -->
+
+        <!-- <mat-form-field class="example-full-width">
+            <mat-label>Room Available</mat-label><br>
+            <input matInput type="text" formControlName="roomsAvailable" placeholder="Enter room available">
+          
+        </mat-form-field><br> -->
+        <mat-form-field class="example-full-width">
+            <mat-label>Rooms Available</mat-label>
+            <mat-select formControlName="roomsAvailable">
+              <mat-option *ngFor="let room of rooms" [value]="room.roomNo">
+                {{room.roomNo}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+        <mat-form-field class="inp" class="example-full-width">
+            <mat-label>Enter Password</mat-label><br>
+            <input matInput type="password" formControlName="userPass" placeholder="Enter password">
+            
+        </mat-form-field>
+    
+        <label>
+            <input type="checkbox" formControlName="owenrCheck" required > Accept Tc & Cs
+        </label>
+        <!-- [disabled]="regitrationForm.invalid" -->
+        <div style="text-align: center;">
+            <button class="btn" mat-raised-button color="accent"
+                (click)="onSubmit()" >Register</button>
+        </div><br>
+    </form>
+</div>
+

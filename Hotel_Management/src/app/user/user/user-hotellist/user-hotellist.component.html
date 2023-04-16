@@ -1,0 +1,35 @@
+
+<div class="bg"><button class="btn btn-danger" (click)="back()">Back</button><span></span>
+
+    <h1 class="fw-bolder">Hotel-list</h1><span> <input class="form-control me-2" type="search" placeholder="Search"
+        [(ngModel)]="searchText" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button></span>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark ">
+            <tr>
+                <th>ID</th>
+                <th>Owner Name</th>
+                <th>Hotel Name</th>
+                <th>Menu</th>
+                <th>Available Rooms</th>
+                <th>Hotel Address</th>
+                <th>Contact</th>
+                <th>Booking</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of apiData | filter:searchText">
+                <td>{{data.id}}</td>
+                <td>{{data.userName}}</td>
+                <td>{{data.hotelName}}</td>
+                <td>{{data.hotelMenu}}</td>
+                <td>{{data.roomsAvailable}}</td>
+                <td>{{data.hotelAddress}}</td>
+                <td>{{data.hotelContact}}</td>
+                <td><button class="btn btn-primary" (click)="bookRoom()">Book Now</button></td>
+                <!-- <td><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="delete"></mat-icon>
+           </td> -->
+            </tr>
+        </tbody>
+    </table>
+</div>
